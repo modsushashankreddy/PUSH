@@ -1,0 +1,52 @@
+div {
+  background-color: grey;
+  height: 00px;
+  width: 400px;
+  position: relative;
+  right: -300px;
+}
+img {
+  height: 700px;
+  width: 420px;
+  position: relative;
+  border-radius: 50px;
+  top: 20px;
+  left: -140px;
+}
+.position {
+  height: 240px;
+  width: 420px;
+  position: absolute;
+  bottom: 20px;
+  background-color: lightgrey;
+  top: 520px;
+  left: -140px;
+  border-radius: 25px;
+  align-items: center;
+}
+.position > ul > h4 > li {
+  color: black;
+}
+/* .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.logo > img {
+  height: 40px;
+  width: 40px;
+  left: -180px;
+  top: -10px;
+}
+
+.button {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+}
+.Hire {
+  position: absolute;
+  top: 50px;
+  right: 110px;
+}
